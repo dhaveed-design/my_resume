@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ezema David Uwaezioke — Resume</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+  :root{
+    --sidebar-bg:#1F2A38;
+    --accent:#C9862A;
+    --sidebar-text:#F3F1EC;
+    --sidebar-muted:#B9C2CC;
+    --main-text:#232323;
+    --main-muted:#5A5A5A;
+  }
+
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    font-family:'Inter',-apple-system,'Segoe UI',sans-serif;
+    background:#e9e9e9;
+    color:var(--main-text);
+    -webkit-font-smoothing:antialiased;
+  }
+
+  .page{
+    max-width:850px;
+    margin:32px auto;
+    background:#fff;
+    display:flex;
+    box-shadow:0 4px 24px rgba(0,0,0,0.12);
+    min-height:1100px;
+  }
+
+  /* ===== Sidebar ===== */
+  .sidebar{
+    width:34%;
+    background:var(--sidebar-bg);
+    color:var(--sidebar-text);
+    padding:40px 26px;
+  }
+  .sidebar h1{
+    font-size:22px;
+    font-weight:700;
+    line-height:1.25;
+    margin:0 0 14px;
+    letter-spacing:0.01em;
+  }
+  .tagline{
+    font-size:12.5px;
+    font-weight:600;
+    color:var(--accent);
+    line-height:1.5;
+    margin-bottom:26px;
+  }
+  .sb-heading{
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:0.12em;
+    text-transform:uppercase;
+    color:var(--accent);
+    border-bottom:1px solid var(--accent);
+    padding-bottom:6px;
+    margin:24px 0 10px;
+  }
+  .sb-heading:first-of-type{margin-top:0;}
+  .sidebar p{
+    font-size:12.5px;
+    line-height:1.6;
+    margin:0 0 6px;
+    color:var(--sidebar-text);
+  }
+  .sidebar a{color:var(--accent); text-decoration:none;}
+  .skill-group{
+    font-size:12.5px;
+    font-weight:700;
+    margin:14px 0 6px;
+    color:var(--sidebar-text);
+  }
+  .skill-group:first-of-type{margin-top:4px;}
+  .sidebar ul{
+    list-style:none;
+    margin:0 0 4px;
+    padding:0;
+  }
+  .sidebar ul li{
+    font-size:12.5px;
+    line-height:1.55;
+    margin-bottom:5px;
+    padding-left:16px;
+    position:relative;
+    color:var(--sidebar-text);
+  }
+  .sidebar ul li::before{
+    content:"▸";
+    position:absolute;
+    left:0;
+    color:var(--accent);
+    font-size:11px;
+  }
+  .edu-block{margin-bottom:16px;}
+  .edu-school{
+    font-size:13px;
+    font-weight:700;
+    margin-bottom:3px;
+  }
+  .edu-detail{
+    font-size:11.5px;
+    color:var(--sidebar-muted);
+    line-height:1.5;
+  }
+
+  /* ===== Main content ===== */
+  .main{
+    width:66%;
+    padding:40px 34px;
+  }
+  .section-heading{
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    color:var(--sidebar-bg);
+    border-left:4px solid var(--accent);
+    padding-left:10px;
+    margin:26px 0 12px;
+  }
+  .section-heading:first-of-type{margin-top:0;}
+  .profile-text{
+    font-size:13px;
+    line-height:1.65;
+    color:var(--main-text);
+    margin:0;
+  }
+  .job{
+    margin-bottom:16px;
+  }
+  .job-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    flex-wrap:wrap;
+    gap:4px 12px;
+    margin-bottom:6px;
+  }
+  .job-title{
+    font-size:14px;
+    font-weight:700;
+    color:var(--main-text);
+  }
+  .job-org{
+    font-size:14px;
+    font-weight:400;
+    color:var(--main-text);
+  }
+  .job-dates{
+    font-size:12px;
+    font-style:italic;
+    color:var(--accent);
+    white-space:nowrap;
+  }
+  .job ul{
+    margin:0;
+    padding-left:18px;
+  }
+  .job ul li{
+    font-size:13px;
+    line-height:1.6;
+    color:var(--main-text);
+    margin-bottom:6px;
+  }
+
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; min-height:0;}
+  }
+
+  @media (max-width:700px){
+    .page{flex-direction:column;}
+    .sidebar, .main{width:100%;}
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+
+  <!-- ===== SIDEBAR ===== -->
+  <aside class="sidebar">
+    <h1>EZEMA DAVID<br>UWAEZIOKE</h1>
+    <div class="tagline">Web Developer • Graphic Designer • Livestream &amp; Media Production</div>
+
+    <div class="sb-heading">Contact</div>
+    <p>Zaria, Kaduna State, Nigeria</p>
+    <p>0706 901 5044</p>
+    <p>ezemadavid16@gmail.com</p>
+    <p><a href="https://www.linkedin.com/in/ezema-david-2b2765383" target="_blank">linkedin.com/in/ezema-david-2b2765383</a></p>
+
+    <div class="sb-heading">Skills</div>
+
+    <div class="skill-group">Programming</div>
+    <ul>
+      <li>Python</li>
+      <li>HTML, CSS, JavaScript (working knowledge)</li>
+    </ul>
+
+    <div class="skill-group">Design Tools</div>
+    <ul>
+      <li>Adobe Photoshop</li>
+      <li>Canva</li>
+      <li>CorelDraw</li>
+    </ul>
+
+    <div class="skill-group">Media Production</div>
+    <ul>
+      <li>OBS Studio</li>
+      <li>Live broadcast setup &amp; troubleshooting</li>
+      <li>Video editing</li>
+    </ul>
+
+    <div class="skill-group">AI Tools</div>
+    <ul>
+      <li>Prompt Engineering</li>
+    </ul>
+
+    <div class="sb-heading">Education</div>
+
+    <div class="edu-block">
+      <div class="edu-school">Ahmadu Bello University, Zaria</div>
+      <div class="edu-detail">B.Sc. Computer Science — 300L</div>
+      <div class="edu-detail">Expected 2027</div>
+    </div>
+
+    <div class="edu-block">
+      <div class="edu-school">Kai-New Era Int'l School</div>
+      <div class="edu-detail">Zaria, Kaduna State</div>
+      <div class="edu-detail">SSCE, 2020</div>
+    </div>
+  </aside>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="main">
+
+    <div class="section-heading">Profile</div>
+    <p class="profile-text">
+      Computer Science student at Ahmadu Bello University with hands-on experience across web development, graphic design, and live production. Builds functional, client-ready websites for small businesses, designs promotional visuals using industry-standard tools, and manages end-to-end livestream production for a regular audience. Comfortable working independently across technical and creative disciplines to deliver polished, real-world results.
+    </p>
+
+    <div class="section-heading">Experience</div>
+
+    <div class="job">
+      <div class="job-header">
+        <span><span class="job-title">Freelance Web Developer</span> <span class="job-org">— Self-Employed, Zaria</span></span>
+      </div>
+      <ul>
+        <li>Design and build responsive, mobile-first websites for small businesses, including a bulk pastry retailer (JMK'S Treat) and a photography studio (Aaron Photography).</li>
+        <li>Translate client branding and business requirements into functional site features such as product catalogs, tiered pricing, cart and checkout flows, and booking/inquiry systems.</li>
+        <li>Work directly with business owners from initial concept through build, managing the full site structure end-to-end using modern development tools.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span><span class="job-title">Graphic Designer — Advertising &amp; Promotional Design</span> <span class="job-org">— Church Media Team, Zaria</span></span>
+        <span class="job-dates">2+ years</span>
+      </div>
+      <ul>
+        <li>Design promotional flyers and advertising graphics for church events, programs, and announcements using Adobe Photoshop, Canva, and CorelDraw.</li>
+        <li>Maintain consistent visual branding across recurring event materials, adapting designs for both print and social media distribution.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span><span class="job-title">Livestream &amp; Media Production</span> <span class="job-org">— Church Media Team, Zaria</span></span>
+        <span class="job-dates">2+ years</span>
+      </div>
+      <ul>
+        <li>Operate end-to-end livestream production for weekly services, broadcasting simultaneously on YouTube and Facebook Live using OBS Studio.</li>
+        <li>Handle a mix of production roles including camera operation, technical/stream direction, and post-production video editing.</li>
+        <li>Ensure consistent, high-quality broadcast delivery for a distributed congregation, troubleshooting technical issues in real time.</li>
+      </ul>
+    </div>
+
+  </main>
+</div>
+
+</body>
+</html>
